@@ -67,16 +67,14 @@ $policies = [
 </head>
 <body>
     <div>
-        <ul>
-            <?php foreach($policies as $policy) { ?>
+        <?php foreach($policies as $policy) { ?>
 
-                <div>
-                    <h2><?php echo $policy['title'] ?></h2>
-                    <p><?php echo $policy['text'] ?></p>
-                </div>
+            <div>
+                <h2><?php echo $policy['title'] ?></h2>
+                <p><?php echo $policy['text'] ?></p>
+            </div>
 
-                <?php } ?>
-        </ul>
+        <?php } ?>
     </div>
 </body>
 </html>
